@@ -9,7 +9,7 @@
 body {
     font-family: Arial, sans-serif;
     
-    background-image: url"../Pictures/Contactt.png";
+    background-image: "/Pictures/Contactt.png";
     
     background-repeat: no-repeat;
     background-position: center;
