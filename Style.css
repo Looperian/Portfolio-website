@@ -1,18 +1,16 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'poppins', sans-serif; 
+    font-family: 'poppins', sans-serif;
 }
 
-body{
-   
+body {
     color: rgb(254, 254, 254);
-    background: rgb(43,45,49);
-
+    background: rgb(43, 45, 49);
 }
 
-.header{
+.header {
     position: fixed;
     top: 0%;
     left: 0%;
@@ -24,7 +22,8 @@ body{
     align-items: center;
     z-index: 100;
 }
-.logo{
+
+.logo {
     font-size: 25px;
     color: rgb(255, 255, 255);
     text-decoration: none;
@@ -39,14 +38,13 @@ body{
     margin-left: 35px;
     transition: 2s;
 }
-.navbar a:hover,
-.navbar a.active
-{
-    color: rgb(255, 255, 0);
 
-} 
-.home{
-    
+.navbar a:hover,
+.navbar a.active {
+    color: rgb(255, 255, 0);
+}
+
+.home {
     height: 100vh;
     background-position: center;
     background-size: 1920px 1080px;
@@ -54,36 +52,36 @@ body{
     align-items: center;
     padding: 0 10%;
 }
-.home-content{
-max-width: 700px;
+
+.home-content {
+    max-width: 700px;
 }
 
-.home-content h1{
+.home-content h1 {
     font-size: 56px;
     font-weight: 700;
     line-height: 1.2;
 }
 
-.home-content h3{
+.home-content h3 {
     font-size: medium;
     font-weight: 600px;
     color: lightyellow;
 }
 
-.home-content p{
+.home-content p {
     font-size: 16px;
     margin: 20px 0 40px;
 }
 
-.home-content .btn-box{
+.home-content .btn-box {
     display: flex;
     justify-content: space-between;
     width: 500px;
     height: 50px;
-  
-} 
+}
 
-.btn-box a{
+.btn-box a {
     position: relative;
     display: inline-flex;
     justify-content: center;
@@ -101,27 +99,26 @@ max-width: 700px;
     z-index: 1;
     overflow: hidden;
     transition: .5s;
-    
 }
 
-
-.btn-box a:hover{
+.btn-box a:hover {
     color: rgb(220, 215, 201)a;
 }
 
-.btn-box a:nth-child(2){
+.btn-box a:nth-child(2) {
     background-color: transparent;
     color: rgb(220, 215, 201);
 }
 
-.btn-box a:nth-child(2):hover{
+.btn-box a:nth-child(2):hover {
     color: black;
 }
 
-.btn-box a:nth-child(2)::before{
+.btn-box a:nth-child(2)::before {
     background: rgb(220, 215, 201);
 }
-.btn-box a::before{
+
+.btn-box a::before {
     content: '';
     position: absolute;
     top: 0;
@@ -132,10 +129,10 @@ max-width: 700px;
     z-index: -1;
     transition: .5s;
 }
-.btn-box a:hover::before{
+
+.btn-box a:hover::before {
     width: 100%;
 }
-
 
 .home-sci {
     position: absolute;
@@ -144,7 +141,6 @@ max-width: 700px;
     background: transparent;
     display: flex;
     justify-content: space-between;
-
 }
 
 .home-sci a {
@@ -160,19 +156,16 @@ max-width: 700px;
     font-size: 20px;
     color: rgb(162, 123, 92);
     text-decoration: none;
-    z-index: 1; 
+    z-index: 1;
     overflow: hidden;
     transition: .5s;
-
 }
 
-.home-sci a:hover{
+.home-sci a:hover {
     color: rgb(63, 78, 79);
-    
-
 }
 
-.home-sci a::before{
+.home-sci a::before {
     content: '';
     position: absolute;
     top: 0;
@@ -184,6 +177,6 @@ max-width: 700px;
     transition: .5s;
 }
 
-.home-sci a:hover::before{
+.home-sci a:hover::before {
     width: 100%;
 }
