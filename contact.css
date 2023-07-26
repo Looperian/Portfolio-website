@@ -99,3 +99,23 @@ body {
     input[type="submit"]:hover {
       background-color: #45a049;
     }
+/* Mobile Styles */
+@media only screen and (max-width: 600px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .logo{
+      align-content: center;
+  }
+
+  .navbar {
+    margin-top: 20px;
+  }
+.container{
+  margin-top: 150px;
+  align-items: center;
+}
+
+}
